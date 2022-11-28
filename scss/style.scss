@@ -1,0 +1,66 @@
+  // scss variables! 
+  $primary-color: #a26c9a;
+  $secondary-color: #686777;
+  $fonts: Arial, Helvetica, Serif;
+
+  // basic page styling. Some of it needs compiling!
+
+body {
+  background-color: $primary-color;
+  font-family: $fonts;
+  line-height: 2;
+};
+
+.container {
+    background-color: #8d8997;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+};
+
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 15px;
+};
+
+.hero {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(242, 231, 231);
+  }
+  li {
+    float: middle;
+    a {
+      & :hover{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: #111;
+      }  
+    }
+  }
+}
+
+img {
+  width: 300px;
+  height: 350px;
+  position: relative;
+}
+
+.hero-subtitle {
+  text-align: center;
+}
+
+.hero-title {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
